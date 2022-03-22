@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net4.5;net4.0</TargetFrameworks>
+    <Authors>wireboy</Authors>
+    <Company>hemaju</Company>
+    <Description>封装了命名管道，能够便捷的使用命名管道</Description>
+    <Copyright>wireboy</Copyright>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <Version>1.0.9</Version>
+    <PackageReleaseNotes>1.客户端增加连接超时</PackageReleaseNotes>
+    <FileVersion>1.0.8.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="packages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>
